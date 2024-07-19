@@ -1,0 +1,157 @@
+/* General Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E7F0DC;
+    color: #131842;
+}
+
+/* Home Page Specific Styles */
+.home-page {
+    background-color: #f0f0f0;
+    background-image: url('assets/img1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    padding: 100px;
+}
+
+/* Styles for the content within the home page */
+.home-page .info {
+    padding: 5px;
+}
+
+.home-page .heading {
+    margin: auto;
+    max-width: 600px;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.home-page .Rules_box {
+    margin: auto;
+    max-width: 600px;
+    text-align: center;
+    font-weight: 550;
+}
+
+.home-page .nxt-btn {
+    margin: auto;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.home-page .start-btn {
+    background-color: #131842;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.home-page .start-btn:hover {
+    background-color: #5A72A0;
+}
+
+/* Styles for the quiz page and others */
+.quiz-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 16px;
+    padding: 16px;
+    width: 60%; /* Adjust width of the card */
+    max-width: 600px; /* Optional: max-width to prevent it from getting too large */
+}
+
+.question {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.options label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.navigation-buttons, .pagination-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px; /* Added space below the buttons */
+}
+
+.nav-button, .submit-button, .pagination-button {
+    background-color: #131842;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.nav-button:hover, .submit-button:hover, .pagination-button:hover {
+    background-color: #5A72A0;
+}
+
+.timer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.timer-display {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.score-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.play-again-button {
+    background-color: #131842;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.play-again-button:hover {
+    background-color: #5A72A0;
+}
